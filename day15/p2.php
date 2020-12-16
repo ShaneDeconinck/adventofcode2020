@@ -28,7 +28,7 @@ while ($iterator < 30000000 - 1) {
   
 }
 
-echo $next;
+echo $next. "\n";
 
 $time_elapsed_secs = microtime(true) - $start;
 echo $time_elapsed_secs . "sec \n";
